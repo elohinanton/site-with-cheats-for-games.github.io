@@ -1,0 +1,126 @@
+body {
+  background-color: #2B2B2B;
+}
+
+#RyizeCheat{
+  color: white;
+  position: absolute;
+  left: 13%;
+  bottom: 94%;
+  font-size: 250%;
+  z-index: 2;
+}
+
+#RyizeCheatTwo{
+  color:white;
+  position: absolute;
+  left: 13%;
+  bottom: 92%;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#TopHotBar{
+  position: absolute;
+  left: 0%;
+  bottom: 75%;
+  width: 100%;
+  height: 25%;
+  background-color: #1F1E1E;
+  z-index: 1;
+}
+
+#TopHotBatTwo{
+  position: absolute;
+  left: 0%;
+  bottom: 75%;
+  width: 100%;
+  height: 15%;
+  background-color: #171616;
+  z-index: 2;
+}
+
+#Glavnaya{
+  position: absolute;
+  left: 35%;
+  bottom: 93%;
+  color: white;
+  background: #1F1E1E;
+  border:none;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#CounterStrike{
+  position: absolute;
+  left: 45%;
+  bottom: 93%;
+  color: white;
+  background: #1F1E1E;
+  border:none;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#Minecraft{
+  position: absolute;
+  left: 55%;
+  bottom: 93%;
+  color: white;
+  background: #1F1E1E;
+  border:none;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#Warface{
+  position: absolute;
+  left: 65%;
+  bottom: 93%;
+  color: white;
+  background: #1F1E1E;
+  border:none;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#Pubg{
+  position: absolute;
+  left: 75%;
+  bottom: 93%;
+  color: white;
+  background: #1F1E1E;
+  border:none;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#Dota2{
+  position: absolute;
+  left: 85%;
+  bottom: 93%;
+  color: white;
+  background: #1F1E1E;
+  border:none;
+  font-size: 100%;
+  z-index: 3;
+}
+
+#Kachestvo{
+  position: absolute;
+  left: 30%;
+  bottom: 80%;
+  color: white;
+  background: #171616;
+  border:none;
+  font-size: 180%;
+  z-index: 3;
+}
+
+#Osnova{
+  z-index: 3;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
