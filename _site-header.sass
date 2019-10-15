@@ -1,76 +1,37 @@
-#RyizeCheat
-  color: $color_1
-  position: absolute
-  left: 13%
-  bottom: 94%
-  font-size: 250%
-  z-index: 2
+.header
+  background-color: $color-secondary-b-0
+  padding: 0 2em 0 5em
 
-  &Two
-    color: $color_1
-    position: absolute
-    left: 13%
-    bottom: 92%
-    font-size: 100%
-    z-index: 3
+  display: flex
+  justify-content: space-between
+  align-items: center
 
-#nav__
-  &Glavnaya
-    position: absolute
-    left: 35%
-    bottom: 93%
-    color: $color_1
-    background: #1f1e1e
-    border: none
-    font-size: 100%
-    z-index: 3
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
 
-  &CounterStrike
-    position: absolute
-    left: 45%
-    bottom: 93%
+  &__logo
     color: $color_1
-    background: #1f1e1e
-    border: none
-    font-size: 100%
-    z-index: 3
+    padding-bottom: .5em
 
-  &Minecraft
-    position: absolute
-    left: 55%
-    bottom: 93%
-    color: $color_1
-    background: #1f1e1e
-    border: none
-    font-size: 100%
-    z-index: 3
+    #RyizeCheat
+      font-size: 250%
 
-  &Warface
-    position: absolute
-    left: 65%
-    bottom: 93%
-    color: $color_1
-    background: #1f1e1e
-    border: none
-    font-size: 100%
-    z-index: 3
+  &__nav
+    height: 100%
+    display: flex
+    justify-content: space-between
+    align-items: stretch
 
-  &Pubg
-    position: absolute
-    left: 75%
-    bottom: 93%
-    color: $color_1
-    background: #1f1e1e
-    border: none
-    font-size: 100%
-    z-index: 3
+    &-button button
+      padding: .5em 1em
+      border: none
+      color: $color-secondary-b-2
+      background-color: #00000000
 
-  &Dota2
-    position: absolute
-    left: 85%
-    bottom: 93%
-    color: $color_1
-    background: #1f1e1e
-    border: none
-    font-size: 100%
-    z-index: 3
+      &:hover
+        color: $color-secondary-b-4
+
+.pseudo-header
+  height: 4em
