@@ -1,1 +1,4 @@
 .directory
+.sass-cache/
+*.html
+*.css
