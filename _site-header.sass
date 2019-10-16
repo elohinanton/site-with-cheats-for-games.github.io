@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap')
+  
 .header
   background-color: $color-secondary-b-0
   padding: 0 2em 0 3.5em
@@ -6,17 +8,12 @@
   justify-content: space-between
   align-items: center
 
-  position: fixed
-  left: 0
-  right: 0
-  top: 0
-
   &__logo
     color: $color_1
 
-
     #RyizeCheat
       font-size: 250%
+      font-family: 'Baloo'
 
   &__nav
     height: 100%
@@ -25,7 +22,7 @@
     align-items: stretch
 
     &-button button
-      padding: .5em 1em
+      padding: auto 1em
       border: none
       color: $color-secondary-b-2
       background-color: #00000000
@@ -36,8 +33,19 @@
 
     &-button-logo button
       color: $color-secondary-b-4
-      padding-bottom: .5em
 
-      
-.pseudo-header
-  height: 4em
+
+.header-fixed
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  background-color: $color-secondary-b-0
+
+
+  height: 4%
+  & #RyizeCheat
+    font-size: 180%
+
+    &Two
+      display: none
