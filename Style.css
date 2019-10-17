@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* Таблицы стилей Sass */
+/* Адрес цветовой схемы: https://colorscheme.ru/#3i51KhRCEPTRP */
+/* HEX коды */
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+/* RGBA коды */
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+@import url("https://fonts.googleapis.com/css?family=Baloo&display=swap");
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.place-for-cards {
+  height: 100%;
+  margin: 0;
+  padding: 2em 6em;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+}
+
+.place-for-cards__card {
+  height: 24em;
+  width: 12em;
+  max-width: 20em;
+  background-color: #4f765f;
+  -webkit-box-shadow: 0 0 0.75em 0.25em #4d5c6e;
+          box-shadow: 0 0 0.75em 0.25em #4d5c6e;
+}
+
+.header {
+  background-color: #59c886;
+  padding: 0 2em 0 3.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  color: white;
+}
+
+.header__logo #RyizeCheat {
+  font-size: 250%;
+  font-family: 'Baloo';
+}
+
+.header__nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.header__nav-button button {
+  padding: auto 1em;
+  border: none;
+  color: #065526;
+  background-color: #00000000;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.header__nav-button button:hover {
+  color: #d8f7e4;
+}
+
+.header__nav-button-logo button {
+  color: #d8f7e4;
+}
+
+.header-fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #59c886;
+  height: 4%;
+}
+
+.header-fixed #RyizeCheat {
+  font-size: 180%;
+}
+
+.header-fixed #RyizeCheatTwo {
+  display: none;
+}
+/*# sourceMappingURL=Style.css.map */
